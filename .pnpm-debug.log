@@ -1,0 +1,293 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "car-site",
+      "version": "0.0.1",
+      "scripts": {
+        "dev": "svelte-kit dev",
+        "build": "svelte-kit build",
+        "package": "svelte-kit package",
+        "preview": "svelte-kit preview",
+        "prepare": "svelte-kit sync",
+        "check": "svelte-check --tsconfig ./tsconfig.json",
+        "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
+        "lint": "prettier --check --plugin-search-dir=. . && eslint .",
+        "format": "prettier --write --plugin-search-dir=. ."
+      },
+      "devDependencies": {
+        "@sveltejs/adapter-auto": "next",
+        "@sveltejs/kit": "next",
+        "@typescript-eslint/eslint-plugin": "^5.27.0",
+        "@typescript-eslint/parser": "^5.27.0",
+        "eslint": "^8.16.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-svelte3": "^4.0.0",
+        "prettier": "^2.6.2",
+        "prettier-plugin-svelte": "^2.7.0",
+        "svelte": "^3.44.0",
+        "svelte-check": "^2.7.1",
+        "svelte-preprocess": "^4.10.6",
+        "tslib": "^2.3.1",
+        "typescript": "^4.7.2"
+      },
+      "type": "module"
+    },
+    "prefix": "/Users/oliveiraho/Projects/car-site"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "/Users/oliveiraho/Library/pnpm/store/v3",
+    "virtualStoreDir": "/Users/oliveiraho/Projects/car-site/node_modules/.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "/Users/oliveiraho/Projects/car-site",
+    "stage": "resolution_started"
+  },
+  "4 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/eslint-config-prettier/8.5.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "eslint-config-prettier",
+      "rawSpec": "^8.3.0"
+    }
+  },
+  "5 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/eslint-config-prettier/8.5.0",
+    "requester": "/Users/oliveiraho/Projects/car-site",
+    "status": "resolved"
+  },
+  "6 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/prettier/2.7.1",
+    "wanted": {
+      "dependentId": ".",
+      "name": "prettier",
+      "rawSpec": "^2.6.2"
+    }
+  },
+  "7 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/prettier/2.7.1",
+    "requester": "/Users/oliveiraho/Projects/car-site",
+    "status": "resolved"
+  },
+  "8 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/tslib/2.4.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "tslib",
+      "rawSpec": "^2.3.1"
+    }
+  },
+  "9 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/tslib/2.4.0",
+    "requester": "/Users/oliveiraho/Projects/car-site",
+    "status": "resolved"
+  },
+  "10 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/prettier-plugin-svelte/2.7.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "prettier-plugin-svelte",
+      "rawSpec": "^2.7.0"
+    }
+  },
+  "11 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/prettier-plugin-svelte/2.7.0",
+    "requester": "/Users/oliveiraho/Projects/car-site",
+    "status": "resolved"
+  },
+  "12 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/eslint-config-prettier/8.5.0",
+    "requester": "/Users/oliveiraho/Projects/car-site",
+    "status": "found_in_store"
+  },
+  "13 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/prettier-plugin-svelte/2.7.0",
+    "requester": "/Users/oliveiraho/Projects/car-site",
+    "status": "found_in_store"
+  },
+  "14 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/tslib/2.4.0",
+    "requester": "/Users/oliveiraho/Projects/car-site",
+    "status": "found_in_store"
+  },
+  "15 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/prettier/2.7.1",
+    "size": 3977924,
+    "status": "started"
+  },
+  "16 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/eslint-plugin-svelte3/4.0.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "eslint-plugin-svelte3",
+      "rawSpec": "^4.0.0"
+    }
+  },
+  "17 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/eslint-plugin-svelte3/4.0.0",
+    "requester": "/Users/oliveiraho/Projects/car-site",
+    "status": "resolved"
+  },
+  "18 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/eslint/8.19.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "eslint",
+      "rawSpec": "^8.16.0"
+    }
+  },
+  "19 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/eslint/8.19.0",
+    "requester": "/Users/oliveiraho/Projects/car-site",
+    "status": "resolved"
+  },
+  "20 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/svelte-check/2.8.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "svelte-check",
+      "rawSpec": "^2.7.1"
+    }
+  },
+  "21 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/svelte-check/2.8.0",
+    "requester": "/Users/oliveiraho/Projects/car-site",
+    "status": "resolved"
+  },
+  "22 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/svelte-check/2.8.0",
+    "requester": "/Users/oliveiraho/Projects/car-site",
+    "status": "found_in_store"
+  },
+  "23 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/svelte-preprocess/4.10.7",
+    "wanted": {
+      "dependentId": ".",
+      "name": "svelte-preprocess",
+      "rawSpec": "^4.10.6"
+    }
+  },
+  "24 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/svelte-preprocess/4.10.7",
+    "requester": "/Users/oliveiraho/Projects/car-site",
+    "status": "resolved"
+  },
+  "25 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/eslint/8.19.0",
+    "size": 502436,
+    "status": "started"
+  },
+  "26 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/svelte-preprocess/4.10.7",
+    "requester": "/Users/oliveiraho/Projects/car-site",
+    "status": "found_in_store"
+  },
+  "27 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/eslint-plugin-svelte3/4.0.0",
+    "size": 13112,
+    "status": "started"
+  },
+  "28 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/eslint-plugin-svelte3/4.0.0",
+    "requester": "/Users/oliveiraho/Projects/car-site",
+    "status": "fetched"
+  },
+  "29 debug pnpm:update-check": {
+    "currentVersion": "7.3.0",
+    "latestVersion": "7.5.0"
+  },
+  "30 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/svelte/3.48.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "svelte",
+      "rawSpec": "^3.44.0"
+    }
+  },
+  "31 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/svelte/3.48.0",
+    "requester": "/Users/oliveiraho/Projects/car-site",
+    "status": "resolved"
+  },
+  "32 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/svelte/3.48.0",
+    "requester": "/Users/oliveiraho/Projects/car-site",
+    "status": "found_in_store"
+  },
+  "33 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@typescript-eslint/parser/5.30.5",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@typescript-eslint/parser",
+      "rawSpec": "^5.27.0"
+    }
+  },
+  "34 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@typescript-eslint/parser/5.30.5",
+    "requester": "/Users/oliveiraho/Projects/car-site",
+    "status": "resolved"
+  },
+  "35 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@typescript-eslint/eslint-plugin/5.30.5",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@typescript-eslint/eslint-plugin",
+      "rawSpec": "^5.27.0"
+    }
+  },
+  "36 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@typescript-eslint/eslint-plugin/5.30.5",
+    "requester": "/Users/oliveiraho/Projects/car-site",
+    "status": "resolved"
+  },
+  "37 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/@typescript-eslint/parser/5.30.5",
+    "size": 9929,
+    "status": "started"
+  },
+  "38 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/eslint/8.19.0",
+    "requester": "/Users/oliveiraho/Projects/car-site",
+    "status": "fetched"
+  },
+  "39 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@typescript-eslint/parser/5.30.5",
+    "requester": "/Users/oliveiraho/Projects/car-site",
+    "status": "fetched"
+  },
+  "40 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/@typescript-eslint/eslint-plugin/5.30.5",
+    "size": 419343,
+    "status": "started"
+  },
+  "41 warn pnpm:install-check": {
+    "message": "Unsupported engine for registry.npmjs.org/@sveltejs/kit/1.0.0-next.357: wanted: {\"node\":\">=16.7\"} (current: {\"node\":\"v14.19.3\",\"pnpm\":\"7.3.0\"})",
+    "prefix": "/Users/oliveiraho/Projects/car-site"
+  },
+  "42 error pnpm": {
+    "code": "ERR_PNPM_UNSUPPORTED_ENGINE",
+    "packageId": "registry.npmjs.org/@sveltejs/kit/1.0.0-next.357",
+    "wanted": {
+      "node": ">=16.7"
+    },
+    "current": {
+      "node": "v14.19.3",
+      "pnpm": "7.3.0"
+    },
+    "pkgsStack": [],
+    "err": {
+      "name": "pnpm",
+      "message": "Unsupported engine for registry.npmjs.org/@sveltejs/kit/1.0.0-next.357: wanted: {\"node\":\">=16.7\"} (current: {\"node\":\"v14.19.3\",\"pnpm\":\"7.3.0\"})",
+      "code": "ERR_PNPM_UNSUPPORTED_ENGINE",
+      "stack": "pnpm: Unsupported engine for registry.npmjs.org/@sveltejs/kit/1.0.0-next.357: wanted: {\"node\":\">=16.7\"} (current: {\"node\":\"v14.19.3\",\"pnpm\":\"7.3.0\"})\n    at checkEngine (/opt/homebrew/Cellar/pnpm/7.3.0/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:43096:16)\n    at checkPackage (/opt/homebrew/Cellar/pnpm/7.3.0/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:43679:74)\n    at packageIsInstallable (/opt/homebrew/Cellar/pnpm/7.3.0/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:43649:20)\n    at resolveAndFetch (/opt/homebrew/Cellar/pnpm/7.3.0/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:93067:117)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at async resolveDependency (/opt/homebrew/Cellar/pnpm/7.3.0/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:117936:23)\n    at async resolveDependenciesOfDependency (/opt/homebrew/Cellar/pnpm/7.3.0/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:117775:39)\n    at async Promise.all (index 1)\n    at async resolveDependencies (/opt/homebrew/Cellar/pnpm/7.3.0/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:117704:29)"
+    }
+  }
+}
