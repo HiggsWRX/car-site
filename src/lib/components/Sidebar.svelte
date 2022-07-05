@@ -12,10 +12,16 @@
 <style>
 	aside {
 		right: -100%;
-		transition: right 0.3s ease-in-out
+		transition: right 0.3s cubic-bezier(0.5, 1, 0.89, 1);
 	}
 	
 	.isOpen {
 		right: 0
 	}
+
+    @media (prefers-reduced-motion: reduce) {
+        aside {
+            transition: none
+        }
+    }
 </style>
