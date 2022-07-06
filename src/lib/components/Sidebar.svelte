@@ -1,7 +1,7 @@
 <script lang="ts">
   import Menu from './Menu.svelte'
 
-  export let isOpen = false
+  export let isOpen: boolean = false
 </script>
 
 <aside
