@@ -1,16 +1,17 @@
 <script lang="ts">
+  import Menu from './Menu.svelte'
+
   export let isOpen = false
 </script>
 
 <aside
-  class="absolute w-full h-[90%] mt-16 bg-white bg-opacity-90 backdrop-blur-sm border-r-2 shadow-lg"
+  class="absolute z-50 w-full h-[90%] mt-16 bg-white bg-opacity-90 backdrop-blur-sm border-r-2 shadow-lg"
   class:isOpen
 >
-  <nav class="p-12 text-xl">
-    <a class="block" href="#about">Stock</a>
-    <a class="block" href="#about">Services</a>
-    <a class="block" href="#about">About</a>
-    <a class="block" href="#contact">Contact</a>
+  <nav class="p-12 text-xl text-slate-700">
+    <ul>
+      <Menu />
+    </ul>
   </nav>
 </aside>
 
