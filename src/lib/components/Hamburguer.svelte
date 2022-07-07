@@ -45,4 +45,11 @@
   .open #bottom {
     transform: translate(-12px, 9px) rotate(-45deg);
   }
+
+  @media (prefers-reduced-motion: reduce) {
+    svg,
+    svg line {
+      transition: none;
+    }
+  }
 </style>

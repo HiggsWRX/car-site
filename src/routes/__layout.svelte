@@ -7,9 +7,10 @@
   let showSidebar = false
 </script>
 
+<Navbar bind:showSidebar />
+
 <section class="flex flex-col relative overflow-hidden">
   <Sidebar bind:isOpen={showSidebar} />
-  <Navbar bind:showSidebar />
   <main class="grow">
     <slot />
   </main>
