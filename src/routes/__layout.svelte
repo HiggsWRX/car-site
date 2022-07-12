@@ -1,21 +1,21 @@
 <script>
   import '../app.css'
-  import Navbar from '../lib/components/Navbar.svelte'
-  import Sidebar from '../lib/components/Sidebar.svelte'
   import Footer from '../lib/components/Footer.svelte'
-
-  let showSidebar = false
+  import Header from '$lib/components/Header.svelte'
 </script>
 
-<Navbar bind:showSidebar />
+<div class="app-content relative">
+  <Header />
 
-<section class="flex flex-col relative overflow-hidden">
-  <Sidebar bind:isOpen={showSidebar} />
-  <main class="grow">
+  <main class="relative">
     <slot />
   </main>
+
   <Footer />
-</section>
+</div>
 
 <style>
+  .app-content {
+    width: 100vw;
+  }
 </style>

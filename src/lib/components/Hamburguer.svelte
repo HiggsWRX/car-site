@@ -17,13 +17,14 @@
 <style>
   svg {
     min-height: 24px;
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.1s ease-in-out;
+    transform: scale(0.7);
   }
 
   svg line {
     stroke: currentColor;
     stroke-width: 3;
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.1s ease-in-out;
   }
 
   button {
