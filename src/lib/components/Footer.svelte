@@ -30,9 +30,8 @@
     </div>
   </div>
 
-  <div class="flex gap-4 pb-4">
+  <div class="flex gap-4 pb-4 md:pt-4">
     <Whatsapp classes="w-6 fill-slate-700" />
-    <Mail classes="w-6 fill-slate-700" />
     <Instagram classes="w-6 fill-slate-700" />
   </div>
 
