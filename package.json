@@ -2,8 +2,8 @@
 	"name": "car-site",
 	"version": "0.0.1",
 	"scripts": {
-		"dev": "svelte-kit dev",
-		"build": "svelte-kit build",
+		"dev": "vite dev",
+		"build": "vite build",
 		"package": "svelte-kit package",
 		"preview": "svelte-kit preview",
 		"prepare": "svelte-kit sync",
@@ -29,7 +29,11 @@
 		"svelte-preprocess": "^4.10.7",
 		"tailwindcss": "^3.1.4",
 		"tslib": "^2.3.1",
-		"typescript": "^4.7.2"
+		"typescript": "^4.7.2",
+		"vite": "^3.0.0"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"firebase": "^9.9.0"
+	}
 }

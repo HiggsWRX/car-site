@@ -4,7 +4,7 @@
 
 <div class="relative overflow-x-hidden">
   <p
-    class="absolute w-full z-10 top-[5%] text-2xl md:text-5xl lg:text-7xl text-center text-red-600"
+    class="absolute w-full z-10 top-[5%] text-2xl md:text-5xl lg:text-7xl text-center text-red-500"
   >
     Welkom bij Car Center S. Duman
   </p>
