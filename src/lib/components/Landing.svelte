@@ -1,9 +1,18 @@
 <script lang="ts">
-  import landing from '../assets/images/landing.jpg'
+  import landing from '../assets/images/hero.jpg'
 </script>
 
-<div class="relative overflow-x-hidden">
-  <div class="w-[200vw] md:w-[100vw] -translate-x-1/4 md:translate-x-0 z-0">
-    <img alt="landing" src={landing} class="z-0" />
-  </div>
+<div class="relative">
+  <p
+    class="absolute w-full z-10 top-[5%] text-2xl md:text-5xl lg:text-7xl text-center text-red-600"
+  >
+    Welkom bij Car Center S. Duman
+  </p>
+
+  <picture class="w-[200vw] -translate-x-1/4 md:w-[100vw] md:translate-x-0 flex justify-center">
+    <img alt="landing" src={landing} class="w-full z-0" />
+  </picture>
 </div>
+
+<style>
+</style>

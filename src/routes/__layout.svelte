@@ -18,4 +18,8 @@
   .app-content {
     width: 100vw;
   }
+
+  :root {
+    overflow-x: hidden;
+  }
 </style>
