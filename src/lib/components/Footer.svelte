@@ -9,37 +9,35 @@
   import Whatsapp from '$lib/assets/icons/whatsapp.svelte'
 </script>
 
-<div class="max-w-full overflow-x-hidden">
-  <footer class="flex flex-col items-center p-3 md:p-10 bg-slate-100">
-    <ul
-      class="flex flex-wrap w-full py-5 text-slate-600 underline md:no-underline [&>*]:w-1/2 md:[&>*]:w-1/3 [&>*]:pl-8 [&>*]:py-1 md:pl-0 md:[&>*]:pl-6"
-    >
-      <Menu />
-    </ul>
+<footer class="flex flex-col items-center p-3 md:p-10 bg-slate-100">
+  <ul
+    class="flex flex-wrap w-full md:w-4/5 py-5 text-slate-600 underline md:no-underline [&>*]:w-1/2 md:[&>*]:w-1/3 [&>*]:pl-8 [&>*]:py-1 md:pl-0 md:[&>*]:pl-6"
+  >
+    <Menu />
+  </ul>
 
-    <div
-      class="flex flex-col md:flex-row w-full flex-grow pb-4 text-center md:text-left md:self-start text-slate-600"
-    >
-      <div class="py-2 md:w-1/3">
-        <Location />
-      </div>
-      <div class="py-2 md:w-1/3">
-        <Contact />
-      </div>
-      <div class="py-2 md:w-1/3">
-        <BusinessHours />
-      </div>
+  <div
+    class="flex flex-col md:flex-row md:w-4/5 pb-4 text-center md:text-left md:self-center text-slate-600"
+  >
+    <div class="py-2 md:w-1/3">
+      <Location />
     </div>
-
-    <div class="flex gap-4 pb-4 md:pt-4">
-      <Whatsapp classes="w-6 fill-slate-700" />
-      <Instagram classes="w-6 fill-slate-700" />
+    <div class="py-2 md:w-1/3">
+      <Contact />
     </div>
+    <div class="py-2 md:w-1/3">
+      <BusinessHours />
+    </div>
+  </div>
 
-    <Logo classes="my-2" />
+  <div class="flex gap-4 pb-4 md:pt-4">
+    <Whatsapp classes="w-6 fill-slate-700" />
+    <Instagram classes="w-6 fill-slate-700" />
+  </div>
 
-    <p class="text-xs opacity-70 pt-6 text-slate-400">
-      Made with <span class="text-red-300">♥</span> by @HiggsWRX
-    </p>
-  </footer>
-</div>
+  <Logo classes="my-2" />
+
+  <p class="text-xs opacity-70 pt-6 text-slate-400">
+    Made with <span class="text-red-300">♥</span> by @HiggsWRX
+  </p>
+</footer>

@@ -1,55 +1,64 @@
 <script lang="ts">
   export let open: boolean = false
+  export let width: string | number = 80
 </script>
 
 <button
-  class="text-gray-500 hover:text-gray-700 md:hidden cursor-pointer mr-4 border-none focus:outline-none"
+  class="text-gray-500 hover:text-gray-700 flex md:hidden cursor-pointer mr-4 border-none focus:outline-none"
   class:open
   on:click={() => (open = !open)}
 >
-  <svg width="32" height="24">
-    <line id="top" x1="0" y1="2" x2="32" y2="2" />
-    <line id="middle" x1="8" y1="12" x2="32" y2="12" />
-    <line id="bottom" x1="0" y1="22" x2="32" y2="22" />
+  <svg class:open viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="5" {width}>
+    <path
+      class="top"
+      d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"
+    />
+    <path class="middle" d="m 30,50 h 40" />
+    <path
+      class="bottom"
+      d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"
+    />
   </svg>
 </button>
 
 <style>
-  svg {
-    min-height: 24px;
-    transition: transform 0.1s ease-in-out;
-    transform: scale(0.7);
+  :root {
+    --transition-duration: 400ms;
   }
-
-  svg line {
-    stroke: currentColor;
-    stroke-width: 3;
-    transition: transform 0.1s ease-in-out;
-  }
-
   button {
-    z-index: 20;
+    cursor: pointer;
+    align-items: center;
+    overflow: hidden;
   }
-
-  .open svg {
-    transform: scale(0.7);
+  svg {
+    transition: transform var(--transition-duration);
   }
-
-  .open #top {
-    transform: translate(6px, 0px) rotate(45deg);
+  .top {
+    stroke-dasharray: 40 160;
+    transition: stroke-dashoffset var(--transition-duration);
   }
-
-  .open #middle {
-    opacity: 0;
+  .middle {
+    transform-origin: 50%;
+    transition: transform var(--transition-duration);
   }
-
-  .open #bottom {
-    transform: translate(-12px, 9px) rotate(-45deg);
+  .bottom {
+    stroke-dasharray: 40 85;
+    transition: stroke-dashoffset var(--transition-duration);
+  }
+  .open {
+    transform: rotate(67.5deg);
+  }
+  .open .top,
+  .open .bottom {
+    stroke-dashoffset: -64px;
+  }
+  .open .middle {
+    transform: rotate(90deg);
   }
 
   @media (prefers-reduced-motion: reduce) {
     svg,
-    svg line {
+    svg path {
       transition: none;
     }
   }

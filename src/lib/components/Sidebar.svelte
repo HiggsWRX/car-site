@@ -5,7 +5,7 @@
 </script>
 
 <aside
-  class="top-16 md:hidden w-full bg-white bg-opacity-90 backdrop-blur-sm border-r-2 shadow-sm shadow-slate-400"
+  class="top-16 md:hidden w-full bg-slate-100 bg-opacity-90 backdrop-blur-sm border-r-2 shadow-sm shadow-slate-400"
   class:isOpen
 >
   <nav class="p-12 text-xl text-slate-700">
@@ -18,7 +18,7 @@
 <style>
   aside {
     position: absolute;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-out;
     transform: translateX(100%);
   }
 

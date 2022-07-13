@@ -15,5 +15,5 @@
   <ul class="hidden md:flex gap-4 text-lg [&>*:hover]:underline">
     <Menu />
   </ul>
-  <Hamburguer bind:open={showSidebar} />
+  <Hamburguer bind:open={showSidebar} width="48" />
 </nav>
