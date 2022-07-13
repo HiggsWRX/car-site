@@ -2,7 +2,7 @@
   import landing from '../assets/images/hero.jpg'
 </script>
 
-<div class="relative">
+<div class="relative overflow-x-hidden">
   <p
     class="absolute w-full z-10 top-[5%] text-2xl md:text-5xl lg:text-7xl text-center text-red-600"
   >
