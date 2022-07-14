@@ -1,6 +1,6 @@
 <script lang="ts">
   import Navbar from './Navbar.svelte'
-  import Sidebar from './Sidebar.svelte'
+  import Sidebar from '$lib/components/Header/Sidebar.svelte'
 
   let showSidebar: boolean = false
 </script>

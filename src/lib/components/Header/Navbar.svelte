@@ -2,8 +2,8 @@
   import { goto } from '$app/navigation'
 
   import Hamburguer from './Hamburguer.svelte'
-  import Logo from './Logo.svelte'
-  import Menu from './Menu.svelte'
+  import Logo from '../Logo.svelte'
+  import Menu from '../Menu.svelte'
 
   export let showSidebar: boolean = false
 </script>
