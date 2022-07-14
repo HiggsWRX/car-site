@@ -3,11 +3,11 @@
 </script>
 
 <div class="relative overflow-x-hidden">
-  <p
+  <!-- <p
     class="absolute w-full z-10 top-[5%] text-2xl md:text-5xl lg:text-7xl text-center text-red-500"
   >
     Welkom bij Car Center S. Duman
-  </p>
+  </p> -->
 
   <picture class="w-[200vw] -translate-x-1/4 md:w-[100vw] md:translate-x-0 flex justify-center">
     <img alt="landing" src={landing} class="w-full z-0" />

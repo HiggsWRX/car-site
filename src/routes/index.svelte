@@ -1,31 +1,15 @@
-<script context="module">
-  import { getArticles } from '$lib/repositories/article.repository'
-
-  export async function load() {
-    try {
-      const articles = await getArticles()
-
-      return {
-        props: {
-          articles
-        }
-      }
-    } catch (error) {
-      return {
-        status: 500,
-        error: 'Error'
-      }
-    }
-  }
-</script>
-
 <script lang="ts">
   import HomeContent from '$lib/components/HomeContent.svelte'
   import Landing from '$lib/components/Landing.svelte'
-  import type { Article } from '$lib/models/article.model'
+  import type { Vehicle } from '$lib/models/vehicle.model'
+  import { setContext } from 'svelte'
 
-  export let articles: Article[] = []
+  export let vehicles: Vehicle[] = []
+
+  setContext('vehicles', {
+    getVehicles: () => vehicles
+  })
 </script>
 
 <Landing />
-<HomeContent {articles} />
+<HomeContent />
