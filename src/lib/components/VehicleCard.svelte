@@ -12,11 +12,14 @@
   </div>
   <h3 class="mt-4 mb-1 md:mb-2 text-2xl md:text-3xl">{vehicle.title}</h3>
   <div class="text-xl text-slate-500">
-    <h4>Carrosserie: {vehicle.year}</h4>
-    <h4>Bouwjaar: {vehicle.year}</h4>
-    <h4>Kilometerstand: {formatNumber(vehicle.mileage)}</h4>
-    <h4>Brandstof: {vehicle.fuel}</h4>
-    <h4>Transmissie: {vehicle.transmission}</h4>
+    <h4>Carrosserie: <span class="text-slate-600 font-medium">{vehicle.year}</span></h4>
+    <h4>Bouwjaar: <span class="text-slate-600 font-medium">{vehicle.year}</span></h4>
+    <h4>
+      Kilometerstand: <span class="text-slate-600 font-medium">{formatNumber(vehicle.mileage)}</span
+      >
+    </h4>
+    <h4>Brandstof: <span class="text-slate-600 font-medium">{vehicle.fuel}</span></h4>
+    <h4>Transmissie: <span class="text-slate-600 font-medium">{vehicle.transmission}</span></h4>
   </div>
   <h3 class="p-2 mt-auto text-right text-2xl md:text-3xl">
     {formatCurrency(vehicle.price)}
