@@ -1,5 +1,8 @@
 <script lang="ts">
-  import HomeContent from '$lib/components/HomeContent.svelte'
+  import Landing from '$lib/components/Landing.svelte'
+  import Newest from '$lib/components/Newest.svelte'
+  import Intro from '$lib/components/Intro.svelte'
+  import GoogleReviews from '$lib/components/GoogleReviews.svelte'
   import type { Vehicle } from '$lib/models/vehicle.model'
   import { setContext } from 'svelte'
 
@@ -10,4 +13,6 @@
   })
 </script>
 
-<HomeContent />
+<Landing />
+<Newest />
+<Intro />

@@ -1,4 +1,5 @@
 <script>
+  import GoogleReviews from './GoogleReviews.svelte'
 </script>
 
 <section class="flex flex-col items-center md:gap-10 bg-slate-800 text-neutral-100 text-xl pb-10">
@@ -47,23 +48,7 @@
         Moet u van uw auto af? Ook daarvoor bent u aan het juiste adres!
       </p>
     </div>
+
+    <GoogleReviews />
   </div>
-
-  <!-- <div class="mx-4 mt-4 md:w-2/5 md:self-end md:mr-[22vw]">
-    <h1 class="text-3xl">Onze service</h1>
-
-    <p class="my-4">
-      U kunt bij Car Center S. Duman terecht voor aankoop van een betrouwbare occasion uit voorraad,
-      onderhoud en reparatie of het invoeren van uw voertuig uit het buitenland. Daarnaast is het
-      mogelijk met een zoekopdracht doelgericht uw droomauto op te zoeken, te importeren en
-      vervolgens gekeurd af te leveren op kenteken. Moet u van uw auto af? Ook daarvoor bent u aan
-      het juiste adres!
-    </p>
-    <img
-      alt="Store front"
-      loading="lazy"
-      src="https://i.imgur.com/iGd53o8.jpeg"
-      class="w-[100%] rounded-sm self-end"
-    />
-  </div> -->
 </section>
