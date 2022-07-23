@@ -3,7 +3,7 @@
 </script>
 
 <section class="flex flex-col items-center md:gap-10 bg-slate-800 text-neutral-100 text-xl pb-10">
-  <div class="flex flex-col px-3 md:pl-10 md:pr-11 mt-8 md:w-4/5">
+  <div class="flex flex-col px-3 mt-8 md:w-4/5">
     <h1 class="text-3xl pb-6 md:pb-0">Over ons</h1>
 
     <div class="md:flex md:py-6">
@@ -48,7 +48,5 @@
         Moet u van uw auto af? Ook daarvoor bent u aan het juiste adres!
       </p>
     </div>
-
-    <GoogleReviews />
   </div>
 </section>

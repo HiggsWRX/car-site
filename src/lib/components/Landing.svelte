@@ -9,7 +9,9 @@
     Welkom bij Car Center S. Duman
   </p> -->
 
-  <picture class="w-[200vw] -translate-x-1/4 md:w-[100vw] md:translate-x-0 flex justify-center">
+  <picture
+    class="w-[200vw] max-w-max -translate-x-1/4 md:w-[100vw] md:translate-x-0 flex justify-center"
+  >
     <img alt="landing" src={landing} class="w-full z-0" />
   </picture>
 </section>

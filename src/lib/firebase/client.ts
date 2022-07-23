@@ -1,4 +1,6 @@
 import { getApp, getApps, initializeApp, type FirebaseApp } from 'firebase/app'
+import { getPerformance } from 'firebase/performance'
+import { getAnalytics } from 'firebase/analytics'
 
 export const getClientApp: () => FirebaseApp = () => {
   if (getApps().length) return getApp()
@@ -15,6 +17,10 @@ export const getClientApp: () => FirebaseApp = () => {
   }
 
   const clientApp = initializeApp(config)
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const performance = getPerformance(clientApp)
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const analytics = getAnalytics(clientApp)
 
   return clientApp
 }
