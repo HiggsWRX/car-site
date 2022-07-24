@@ -1,5 +1,5 @@
 <section
-  class="flex flex-col md:flex-row justify-between w-full p-4 md:px-44 md:py-20 gap-6 text-xl bg-slate-800 text-neutral-100"
+  class="flex flex-col md:flex-row justify-between w-full px-4 py-10 md:px-44 md:py-20 gap-6 text-xl bg-slate-800 text-neutral-100"
 >
   <div class="flex items-center justify-evenly w-full md:w-1/5">
     <select

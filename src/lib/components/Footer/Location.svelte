@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Pin from '../assets/icons/pin.svelte'
+  import Pin from '$lib/assets/icons/pin.svelte'
 </script>
 
 <div class="flex justify-center pb-2 md:justify-start">

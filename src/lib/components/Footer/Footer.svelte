@@ -2,9 +2,9 @@
   import Logo from '$lib/components/Logo.svelte'
   import Menu from '$lib/components/Menu.svelte'
   import Instagram from '$lib/assets/icons/instagram.svelte'
-  import Location from '$lib/components/Location.svelte'
-  import Contact from '$lib/components/Contact.svelte'
-  import BusinessHours from '$lib/components/BusinessHours.svelte'
+  import Location from './Location.svelte'
+  import Contact from './Contact.svelte'
+  import BusinessHours from './BusinessHours.svelte'
   import Whatsapp from '$lib/assets/icons/whatsapp.svelte'
 </script>
 

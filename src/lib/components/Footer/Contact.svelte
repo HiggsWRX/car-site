@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Phone from '../assets/icons/phone.svelte'
+  import Phone from '$lib/assets/icons/phone.svelte'
 </script>
 
 <div class="flex justify-center pb-2 md:justify-start">

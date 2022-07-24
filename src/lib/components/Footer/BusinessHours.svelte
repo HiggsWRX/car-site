@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Clock from '../assets/icons/clock.svelte'
+  import Clock from '$lib/assets/icons/clock.svelte'
 </script>
 
 <div class="flex justify-center pb-2 md:justify-start">

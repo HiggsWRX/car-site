@@ -12,7 +12,7 @@
   </div>
   <h3 class="mt-4 mb-1 md:mb-2 text-2xl md:text-3xl">{vehicle.title}</h3>
   <div class="text-xl text-slate-500">
-    <h4>Carrosserie: <span class="text-slate-600 font-medium">{vehicle.year}</span></h4>
+    <h4>Carrosserie: <span class="text-slate-600 font-medium">{vehicle.body}</span></h4>
     <h4>Bouwjaar: <span class="text-slate-600 font-medium">{vehicle.year}</span></h4>
     <h4>
       Kilometerstand: <span class="text-slate-600 font-medium">{formatNumber(vehicle.mileage)}</span
