@@ -6,7 +6,7 @@
       name="brands"
       id="brand-select"
       value=""
-      class="w-full h-12 rounded-none bg-slate-800 border-b border-neutral-100"
+      class="w-full h-12 rounded-none bg-inherit border-b border-neutral-100"
     >
       <option value="" hidden disabled>Alle Merken</option>
       <option value="mercedes">Mercedes</option>
@@ -18,7 +18,7 @@
       name="brands"
       id="brand-select"
       value=""
-      class="w-full h-12 rounded-none bg-slate-800 border-b border-neutral-100"
+      class="w-full h-12 rounded-none bg-inherit border-b border-neutral-100"
     >
       <option value="" hidden disabled>Alle Modelen</option>
       <option value="mercedes">Mercedes</option>
@@ -30,7 +30,7 @@
       name="brands"
       id="brand-select"
       value=""
-      class="w-full h-12 rounded-none bg-slate-800 border-b border-neutral-100"
+      class="w-full h-12 rounded-none bg-inherit border-b border-neutral-100"
     >
       <option value="" hidden disabled>Alle Transmissies</option>
       <option value="mercedes">Mercedes</option>
