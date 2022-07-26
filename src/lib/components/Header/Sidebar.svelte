@@ -5,7 +5,7 @@
 </script>
 
 <aside
-  class="w-full border-r-2 top-16 md:hidden bg-slate-100 bg-opacity-90 backdrop-blur-sm shadow-sm shadow-slate-400"
+  class="top-16 w-full border-r-2 bg-slate-100 bg-opacity-90 shadow-sm shadow-slate-400 backdrop-blur-sm md:hidden"
   class:isOpen
 >
   <nav class="p-12 text-xl text-slate-700">

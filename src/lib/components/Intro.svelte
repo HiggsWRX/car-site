@@ -2,18 +2,18 @@
 </script>
 
 <section
-  class="xl:flex xl:flex-wrap px-4 py-10 xl:py-20 bg-slate-800 text-neutral-100 text-xl sm:px-10 md:px-[6vw] md:mx-auto"
+  class="bg-slate-800 px-4 py-10 text-xl text-neutral-100 sm:px-10 md:mx-auto md:px-[6vw] xl:flex xl:flex-wrap xl:py-20"
 >
-  <h1 class="mb-10 text-3xl xl:text-5xl xl:w-full">Over ons</h1>
+  <h1 class="mb-10 text-3xl xl:w-full xl:text-5xl">Over ons</h1>
 
   <img
     alt="Store front"
     loading="lazy"
     src="https://i.imgur.com/iGd53o8.jpeg"
-    class="rounded-sm xl:w-[50%] xl:h-full"
+    class="rounded-sm xl:h-full xl:w-[50%]"
   />
 
-  <p class="text-xl mt-10 xl:w-[35%] xl:m-auto xl:-mt-2">
+  <p class="mt-10 text-xl xl:m-auto xl:-mt-2 xl:w-[35%]">
     Car Center S. Duman is opgericht in 1993 en kan leunen op haar jarenlange expertise.
     <br /><br />
     Door de jaren heen heeft zij een sterke band met haar klanten kunnen opbouwen, die na een bepaalde
@@ -26,16 +26,16 @@
     met het openbaar vervoer en dichtbij de op- en afrit van de snelweg.
   </p>
 
-  <h1 class="my-10 text-3xl xl:text-5xl xl:w-full">Onze service</h1>
+  <h1 class="my-10 text-3xl xl:w-full xl:text-5xl">Onze service</h1>
 
   <img
     alt="Store front"
     loading="lazy"
     src="https://pr1.nicelocal.co.nl/QbRof66RkHVHkh_gppXoDg/1120x700,q85/4px-BW84_n0QJGVPszge3NRBsKw-2VcOifrJIjPYFYkOtaCZxxXQ2Y7gmXDAgpaXwuXz56-pgywCqBIxwm3rkOSOZqCcJ8-RYPomGvSG7VnC0mk3k5kMpA"
-    class="rounded-sm xl:w-[45%] xl:h-full xl:ml-auto xl:mr-0 xl:order-2"
+    class="rounded-sm xl:order-2 xl:ml-auto xl:mr-0 xl:h-full xl:w-[45%]"
   />
 
-  <p class="text-xl mt-10 xl:-mt-2 xl:w-[50%]">
+  <p class="mt-10 text-xl xl:-mt-2 xl:w-[50%]">
     U kunt bij Car Center S. Duman terecht voor aankoop van een betrouwbare occasion uit voorraad,
     onderhoud en reparatie of het invoeren van uw voertuig uit het buitenland.
     <br /><br />

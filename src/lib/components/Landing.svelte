@@ -10,7 +10,7 @@
   </p> -->
 
   <picture
-    class="w-[200vw] max-w-max md:max-w-full -translate-x-1/4 md:w-[100vw] md:translate-x-0 flex justify-center"
+    class="flex w-[200vw] max-w-max -translate-x-1/4 justify-center md:w-[100vw] md:max-w-full md:translate-x-0"
   >
     <img alt="landing" src={landing} class="z-0 w-full" />
   </picture>

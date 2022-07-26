@@ -11,17 +11,17 @@
   export let vehicle: Vehicle
 </script>
 
-<div class="flex flex-col w-full xl:w-1/3 text-slate-600">
-  <div class="h-[35vh] rounded-sm overflow-hidden">
-    <img alt="car" src={vehicle.images[0]} class="object-cover w-full h-full" />
+<div class="flex w-full flex-col text-slate-600 xl:w-1/3">
+  <div class="h-[35vh] overflow-hidden rounded-sm">
+    <img alt="car" src={vehicle.images[0]} class="h-full w-full object-cover" />
   </div>
 
-  <h3 class="mt-4 mb-1 md:mb-6 text-2xl md:text-[1.6rem] md:leading-7 text-sky-800">
+  <h3 class="mt-4 mb-1 text-2xl text-sky-800 md:mb-6 md:text-[1.6rem] md:leading-7">
     {vehicle.title}
   </h3>
 
-  <div class="flex flex-wrap mt-auto mb-0 text-xl gap-2 text-slate-500">
-    <div class="flex justify-between w-full fill-slate-600">
+  <div class="mt-auto mb-0 flex flex-wrap gap-2 text-xl text-slate-500">
+    <div class="flex w-full justify-between fill-slate-600">
       <div class="flex flex-col gap-4">
         <h4 class="flex items-center gap-2">
           <div class="w-8"><BodyIcon body={vehicle.body} /></div>
@@ -48,7 +48,7 @@
       </div>
     </div>
   </div>
-  <h3 class="text-2xl text-right md:text-2xl text-sky-800">
+  <h3 class="text-right text-2xl text-sky-800 md:text-2xl">
     {formatCurrency(vehicle.price)}
   </h3>
 </div>

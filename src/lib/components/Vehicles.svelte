@@ -6,16 +6,16 @@
   const centerInstead: boolean = vehicles.length < 3
 </script>
 
-<section class="mx-4 my-10 md:my-20 sm:px-10 md:px-[6vw] md:mx-auto">
+<section class="mx-4 my-10 sm:px-10 md:my-20 md:mx-auto md:px-[6vw]">
   <slot />
 
   <div
-    class="flex flex-col justify-between mt-10 xl:flex-row gap-6 xl:gap-12 md:mt-20"
+    class="mt-10 flex flex-col justify-between gap-6 md:mt-20 xl:flex-row xl:gap-12"
     class:centerInstead
   >
     {#each vehicles as vehicle}
       <VehicleCard {vehicle} />
-      <hr class="w-5/6 mx-auto mb-2 border-t xl:hidden border-slate-300 last:hidden" />
+      <hr class="mx-auto mb-2 w-5/6 border-t border-slate-300 last:hidden xl:hidden" />
     {/each}
   </div>
 </section>

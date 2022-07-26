@@ -4,7 +4,7 @@
   import Header from '$lib/components/Header/Header.svelte'
 </script>
 
-<div class="relative app-content">
+<div class="app-content relative">
   <Header />
 
   <main class="relative">
