@@ -6,7 +6,7 @@
   const centerInstead: boolean = vehicles.length < 3
 </script>
 
-<section class="mx-4 my-10 md:my-20 sm:px-10 md:px-20 md:mx-auto">
+<section class="mx-4 my-10 md:my-20 sm:px-10 md:px-[12vw] md:mx-auto">
   <slot />
 
   <div

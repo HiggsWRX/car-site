@@ -8,15 +8,17 @@
   import Whatsapp from '$lib/assets/icons/whatsapp.svelte'
 </script>
 
-<footer class="flex flex-col text-xl items-center p-3 md:p-10 bg-slate-100">
+<footer
+  class="flex flex-col text-xl items-center p-3 sm:px-10 md:px-[12vw] md:mx-auto  bg-slate-100"
+>
   <ul
-    class="flex flex-wrap w-full md:w-4/5 py-5 text-slate-600 underline md:no-underline [&>*]:w-1/2 md:[&>*]:w-1/3 [&>*]:pl-8 [&>*]:py-1 md:pl-0 md:[&>*]:pl-6"
+    class="flex flex-wrap w-full py-5 text-slate-600 underline md:no-underline [&>*]:w-1/2 md:[&>*]:w-1/3 [&>*]:pl-8 [&>*]:py-1 md:pl-0 md:[&>*]:pl-6"
   >
     <Menu />
   </ul>
 
   <div
-    class="flex flex-col md:flex-row md:w-4/5 pb-4 text-slate-600 text-center md:text-left md:self-center"
+    class="flex flex-col md:flex-row w-full pb-4 text-slate-600 text-center md:text-left md:self-center"
   >
     <div class="py-2 md:w-1/3">
       <Location />
