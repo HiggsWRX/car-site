@@ -6,6 +6,7 @@
   import H1Title from '$lib/components/H1Title.svelte'
   import Filters from '$lib/components/Filters.svelte'
   import GoogleReviews from '$lib/components/GoogleReviews.svelte'
+  import ContactForm from '$lib/components/ContactForm.svelte'
 
   export let newestVehicles: Vehicle[]
   let highlightVehicles: Vehicle[]
@@ -30,4 +31,7 @@
 
 <Intro />
 
-<GoogleReviews />
+<!-- <div class="flex flex-wrap xl:flex-nowrap md:w-4/5 p-4 py-10 md:py-20 mx-auto bg-yellow-400">
+  <GoogleReviews />
+  <ContactForm />
+</div> -->

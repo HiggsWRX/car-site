@@ -11,7 +11,7 @@
   export let vehicle: Vehicle
 </script>
 
-<div class="flex flex-col w-full md:w-1/4 text-slate-600">
+<div class="flex flex-col w-full xl:w-1/3 text-slate-600">
   <div class="h-[30vh] rounded-sm overflow-hidden">
     <img alt="car" src={vehicle.images[0]} class="w-full h-full object-cover" />
   </div>
