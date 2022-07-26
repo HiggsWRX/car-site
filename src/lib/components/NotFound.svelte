@@ -4,7 +4,7 @@
   const handleClick = () => goto('/')
 </script>
 
-<div class="flex flex-col w-full py-32 justify-center items-center text-center">
+<div class="flex flex-col items-center justify-center w-full py-32 text-center">
   <p class="text-9xl text-slate-600">404</p>
   <p class="text-6xl text-slate-600">PAGE NOT FOUND</p>
 

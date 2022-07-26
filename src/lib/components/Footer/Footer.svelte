@@ -9,7 +9,7 @@
 </script>
 
 <footer
-  class="flex flex-col text-xl items-center p-3 sm:px-10 md:px-[12vw] md:mx-auto  bg-slate-100"
+  class="flex flex-col text-xl items-center md:px-[6vw] md:mx-auto  bg-slate-100"
 >
   <ul
     class="flex flex-wrap w-full py-5 text-slate-600 underline md:no-underline [&>*]:w-1/2 md:[&>*]:w-1/3 [&>*]:pl-8 [&>*]:py-1 md:pl-0 md:[&>*]:pl-6"
@@ -18,7 +18,7 @@
   </ul>
 
   <div
-    class="flex flex-col md:flex-row w-full pb-4 text-slate-600 text-center md:text-left md:self-center"
+    class="flex flex-col w-full pb-4 text-center md:flex-row text-slate-600 md:text-left md:self-center"
   >
     <div class="py-2 md:w-1/3">
       <Location />
@@ -38,7 +38,7 @@
 
   <Logo classes="my-2" />
 
-  <p class="text-xs opacity-70 pt-6 text-slate-400">
+  <p class="pt-6 text-xs opacity-70 text-slate-400">
     Made with <span class="text-red-300">♥</span> by @HiggsWRX
   </p>
 </footer>

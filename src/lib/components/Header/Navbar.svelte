@@ -8,7 +8,7 @@
   export let showSidebar: boolean = false
 </script>
 
-<nav class="flex items-center h-16 w-full pl-3 md:p-8 justify-between">
+<nav class="flex items-center justify-between w-full h-16 pl-3 md:p-8">
   <div on:click={() => goto('/')}>
     <Logo />
   </div>

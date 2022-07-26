@@ -4,7 +4,7 @@
 
 <div class="flex justify-center pb-2 md:justify-start">
   <Phone classes="w-4 fill-slate-500" />
-  <p class="hidden md:block pl-2">Contact:</p>
+  <p class="hidden pl-2 md:block">Contact:</p>
 </div>
 <p class="md:pl-6">
   Tel: <a class="underline md:no-underline md:font-medium" href="tel:0703830108">0703830108</a>

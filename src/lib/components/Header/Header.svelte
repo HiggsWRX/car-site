@@ -6,7 +6,7 @@
 </script>
 
 <header
-  class="contain-layout sticky top-0 z-50 flex flex-col items-center bg-slate-100 shadow-sm shadow-slate-400"
+  class="sticky top-0 z-50 flex flex-col items-center contain-layout bg-slate-100 shadow-sm shadow-slate-400"
 >
   <Navbar bind:showSidebar />
   <Sidebar isOpen={showSidebar} />

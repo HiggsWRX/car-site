@@ -2,15 +2,15 @@
 </script>
 
 <section
-  class="xl:flex xl:flex-wrap px-4 py-10 xl:py-20 bg-slate-800 text-neutral-100 text-xl sm:px-10 md:px-[12vw] md:mx-auto"
+  class="xl:flex xl:flex-wrap px-4 py-10 xl:py-20 bg-slate-800 text-neutral-100 text-xl sm:px-10 md:px-[6vw] md:mx-auto"
 >
-  <h1 class="text-3xl xl:text-5xl mb-10 xl:w-full">Over ons</h1>
+  <h1 class="mb-10 text-3xl xl:text-5xl xl:w-full">Over ons</h1>
 
   <img
     alt="Store front"
     loading="lazy"
     src="https://i.imgur.com/iGd53o8.jpeg"
-    class="rounded-sm xl:w-[45%] xl:h-full"
+    class="rounded-sm xl:w-[50%] xl:h-full"
   />
 
   <p class="text-xl mt-10 xl:w-[35%] xl:m-auto xl:-mt-2">
@@ -26,7 +26,7 @@
     met het openbaar vervoer en dichtbij de op- en afrit van de snelweg.
   </p>
 
-  <h1 class="text-3xl xl:text-5xl my-10 xl:w-full">Onze service</h1>
+  <h1 class="my-10 text-3xl xl:text-5xl xl:w-full">Onze service</h1>
 
   <img
     alt="Store front"

@@ -31,7 +31,7 @@
 
 <Intro />
 
-<!-- <div class="flex flex-wrap xl:flex-nowrap md:w-4/5 p-4 py-10 md:py-20 mx-auto bg-yellow-400">
+<!-- <div class="flex flex-wrap p-4 py-10 mx-auto bg-yellow-400 xl:flex-nowrap md:w-4/5 md:py-20">
   <GoogleReviews />
   <ContactForm />
 </div> -->

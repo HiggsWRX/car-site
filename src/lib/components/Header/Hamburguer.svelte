@@ -4,7 +4,7 @@
 </script>
 
 <button
-  class="text-gray-500 hover:text-gray-700 flex md:hidden cursor-pointer mr-4 border-none focus:outline-none"
+  class="flex mr-4 text-gray-500 border-none cursor-pointer hover:text-gray-700 md:hidden focus:outline-none"
   class:open
   on:click={() => (open = !open)}
 >

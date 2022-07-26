@@ -9,24 +9,24 @@
     <input
       type="text"
       placeholder="Naam"
-      class="w-full text-2xl border-2 border-slate-600 rounded-sm p-2"
+      class="w-full p-2 text-2xl border-2 rounded-sm border-slate-600"
     />
     <input
       type="email"
       placeholder="Email"
-      class="w-full text-2xl border-2 border-slate-600 rounded-sm p-2"
+      class="w-full p-2 text-2xl border-2 rounded-sm border-slate-600"
     />
     <input
       type="text"
       placeholder="Telefoonnummer"
-      class="w-full text-2xl border-2 border-slate-600 rounded-sm p-2"
+      class="w-full p-2 text-2xl border-2 rounded-sm border-slate-600"
     />
     <textarea
       placeholder="Bericht"
       class="w-full min-h-[15vh] text-2xl border-2 border-slate-600 rounded-sm p-2"
     />
 
-    <button class="border bg-slate-800 text-neutral-100 rounded-sm p-2 w-full text-2xl">
+    <button class="w-full p-2 text-2xl border rounded-sm bg-slate-800 text-neutral-100">
       Verstuur
     </button>
   </form>

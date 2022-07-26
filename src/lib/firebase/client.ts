@@ -7,9 +7,10 @@ export const getClientApp: () => FirebaseApp = () => {
 
   const config = {
     apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-    authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+    authDomain: import.meta.env.VITE_FIREBASE_PROJECT_ID + '.firebaseapp.com',
     projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
-    storageBucket: import.meta.env.VITE_FIREBASE_BUCKET_ID
+    storageBucket: import.meta.env.VITE_FIREBASE_PROJECT_ID + '.appspot.com',
+    measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID
   }
 
   if (!config.apiKey || !config.authDomain || !config.projectId || !config.storageBucket) {

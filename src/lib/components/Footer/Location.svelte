@@ -4,7 +4,7 @@
 
 <div class="flex justify-center pb-2 md:justify-start">
   <Pin classes="w-4 fill-slate-500" />
-  <p class="hidden md:block pl-2">Adres:</p>
+  <p class="hidden pl-2 md:block">Adres:</p>
 </div>
 <p class="md:pl-6 md:font-medium">Car Center S. Duman</p>
 <p class="md:pl-6 md:font-medium">Zonweg 61</p>
